@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scan Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Scan Results</h1>
+    <div class="results">
+        {% if vulnerabilities %}
+        <h2>Vulnerabilities Found:</h2>
+        {% for vulnerability in vulnerabilities %}
+        <div class="result">{{ vulnerability }}</div>
+        {% endfor %} {% else %}
+        <p>No vulnerabilities found.</p>
+        {% endif %}
+        <p><a href="/">Back to Scanner</a></p>
+    </div>
+</body>
+
+</html>

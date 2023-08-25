@@ -1,0 +1,17 @@
+"sql_injection", "csrf ",
+"xss", "Command Injection",
+"Security Misconfiguration",
+"Broken Authentication and Session Management",
+"Insecure Deserialization",
+"Sensitive Data Exposure",
+"XML External Entity (XXE) Attacks",
+"Insecure Direct Object References",
+"Security Bypass",
+"File Upload Vulnerabilities",
+"Server-Side Request Forgery (SSRF)",
+"Unvalidated Redirects and Forwards",
+"Remote Code Execution (RCE)"
+
+
+#Sample web site
+https://ginandjuice.shop/vulnerabilities
